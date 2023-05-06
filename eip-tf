@@ -1,0 +1,8 @@
+resource "aws_eip" "tf_eip" {
+  vpc = true
+  tags = {
+    Name = "tf-eip-practica-examen"
+  }
+}
+
+
